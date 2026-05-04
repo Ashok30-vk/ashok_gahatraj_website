@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok Gahatraj | GIScience · Remote Sensing · GeoAI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">AG</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#photography" class="nav-link">Photography</a></li>
+                <li><a href="#marginalia" class="nav-link">Marginalia</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#cv" class="nav-link nav-cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-bg"><div class="topo-pattern"></div></div>
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <span class="hero-eyebrow">Master's in Applied Geography · NMSU</span>
+                    <h1 class="hero-name">Ashok<br>Gahatraj</h1>
+                    <!-- Cycling identity line — words defined in script.js -->
+                    <p class="hero-cycle" id="heroCycle" aria-live="polite">
+                        <span class="cycle-prefix">I am a </span><span class="cycle-word" id="cycleWord"></span><span class="cycle-cursor">|</span>
+                    </p>
+                    <p class="hero-tagline">GIScience · Remote Sensing · GeoAI · Spatial Analytics</p>
+                    <p class="hero-desc">Hi, I’m Ashok Gahatraj, a graduate student in Applied Geography at New Mexico State University, working at the intersection of GIScience, remote sensing, and spatial analysis.
+                     This website is a collection of the things that shape how I see the world: research, maps, satellite imagery, photography, travel, stories, and everyday moments that make places feel alive.
+                     Here you’ll find the work I do, the questions I explore, and the experiences that continue to shape me both inside and outside academia.</p>
+                    <div class="hero-links">
+                        <a href="#about" class="btn-primary">Explore My Work</a>
+                        <a href="#contact" class="btn-ghost">Get in Touch</a>
+                    </div>
+                    <div class="hero-pills">
+                        <span><i class="fas fa-map-marked-alt"></i> 4+ yrs GIS</span>
+                        <span><i class="fas fa-satellite"></i> Remote Sensing</span>
+                        <span><i class="fas fa-brain"></i> GeoAI / ML</span>
+                        <span><i class="fas fa-code"></i> Python · R · GEE</span>
+                    </div>
+                </div>
+                <div class="hero-photo-wrap">
+                    <div class="hero-photo-ring">
+                        <img src="images/Ashok_PP.jpg" alt="Ashok Gahatraj" class="hero-photo" id="heroPhoto"
+                             onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';">
+                        <div class="photo-placeholder" id="photoPlaceholder">
+                            <i class="fas fa-user"></i>
+                            <span>Add your photo</span>
+                        </div>
+                    </div>
+                    <div class="hero-location-badge">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Las Cruces, NM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-cue"><span>Scroll</span><div class="scroll-line"></div></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-label">About</div>
+            <div class="about-grid">
+                <div class="about-main">
+                    <h2 class="section-heading">Geospatial Researcher.<br><em>Curious by Nature.</em></h2>
+                    <p>I’m a graduate researcher in Applied Geography at New Mexico State University, where I study how geography, environment, and human systems interact across space and time. My work combines GIScience, remote sensing, climate data, and spatial analysis to better understand the patterns shaping both natural and built environments.</p>
+                    <p>My current research focuses on vegetation phenology in the Sky Islands of the U.S. Southwest, isolated mountain ecosystems rising from surrounding deserts. Using satellite imagery, climate datasets, and geospatial modeling, I explore how elevation, climate variability, and disturbance influence seasonal vegetation dynamics across these landscapes.</p>
+                    <p>Beyond environmental research, I’m also interested in urban inequality, spatial accessibility, public health, digital landscapes, and the ways geography quietly shapes everyday life. Before coming to New Mexico, I worked as a Data Analyst at Numeric Mind in Kathmandu, Nepal, supporting healthcare and clinical trial projects through spatial analysis and machine learning workflows.</p>
+                    <p>Outside academics, I enjoy photography, traveling, walking through unfamiliar cities, and observing the small details that give places their character. For me, geography has always been more than maps or technology, it’s a way of understanding relationships between people, landscapes, memory, and experience.</p>
+                    <div class="highlight-strip">
+                        <div class="highlight-icon"><i class="fas fa-bullseye"></i></div>
+                        <p><strong>“I think some of the best conversations happen while walking without a destination.”</strong></p>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="skill-block">
+                        <h4>GIS & Remote Sensing</h4>
+                        <div class="skill-tags">
+                            <span>ArcGIS Pro</span><span>ArcGIS Online</span><span>ArcGIS Indoors</span>
+                            <span>QGIS</span><span>Experience Builder</span><span>ENVI</span>
+                            <span>Phenofit</span><span>Google Earth Engine</span>
+                        </div>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Programming & AI</h4>
+                        <div class="skill-tags">
+                            <span>Python</span><span>R</span><span>SQL</span>
+                            <span>JavaScript</span><span>Random Forest</span><span>SVM</span>
+                            <span>Regression Modeling</span><span>Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Data & Visualization</h4>
+                        <div class="skill-tags">
+                            <span>Matplotlib</span><span>ggplot2</span><span>Power BI</span>
+                            <span>ArcGIS Dashboards</span><span>StoryMaps</span>
+                        </div>
+                    </div>
+                    <div class="skill-block">
+                        <h4>Other Tools</h4>
+                        <div class="skill-tags">
+                            <span>AutoCAD</span><span>Revit (basic)</span>
+                            <span>UAV / Photogrammetry</span><span>DGPS · Total Station</span>
+                        </div>
+                    </div>
+                    <div class="edu-block">
+                        <div class="edu-item">
+                            <span class="edu-year">2024–Now</span>
+                            <div>
+                                <strong>M.S. Applied Geography</strong>
+                                <span>New Mexico State University · GPA 3.97</span>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <span class="edu-year">2017–22</span>
+                            <div>
+                                <strong>B.E. Geomatics Engineering</strong>
+                                <span>Tribhuvan University, Nepal</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOURNEY / TIMELINE -->
+    <section class="journey-section" id="journey">
+        <div class="container">
+            <div class="section-label">My Journey</div>
+            <h2 class="section-heading">From Nepal<br><em>to New Mexico</em></h2>
+            <p class="journey-intro">Every stage of my journey changed the way I understand place, people, and geography; from surveying landscapes in Nepal to working with healthcare data, satellite imagery, and spatial research in the American Southwest. Each experience added a new perspective, gradually shaping the way I think about the world today.</p>
+
+            <div class="timeline">
+                <div class="tl-spine"></div>
+
+                <div class="tl-item tl-left reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-period">2017 – 2022</span>
+                        <h3>B.E. Geomatics Engineering</h3>
+                        <p class="tl-org"><i class="fas fa-university"></i> Tribhuvan University · Pokhara, Nepal</p>
+                        <p>This is where my relationship with geography began. I built foundations in surveying, cartography, geodesy, photogrammetry, and GIS, while learning how spatial data quietly shapes infrastructure, disaster response, planning, and everyday life. More importantly, it taught me to see geography not just as maps, but as a way of understanding the world.</p>
+                        <div class="tl-tags"><span>Surveying & UAV</span><span>Photogrammetry</span><span>Cartography</span><span>GIS Fundamentals</span></div>
+                    </div>
+                </div>
+
+                <div class="tl-item tl-right reveal">
+                    <div class="tl-dot tl-dot--accent"></div>
+                    <div class="tl-card">
+                        <span class="tl-period">During Studies</span>
+                        <h3>Intern · Humanitarian OpenStreetMap Team</h3>
+                        <p class="tl-org"><i class="fas fa-globe"></i> HOT OSM · Nepal Chapter</p>
+                        <p>Worked with open geospatial data for community mapping and disaster preparedness initiatives across Nepal. This experience introduced me to the human side of mapping, understanding how spatial data can directly support communities, accessibility, and real-world decision making.</p>
+                        <div class="tl-tags"><span>OpenStreetMap</span><span>Community Mapping</span><span>Humanitarian GIS</span><span>Disaster Preparedness</span></div>
+                    </div>
+                </div>
+
+                <div class="tl-item tl-left reveal">
+                    <div class="tl-dot"></div>
+                    <div class="tl-card">
+                        <span class="tl-period">Oct 2022 – Jun 2024</span>
+                        <h3>Data Analyst · Numeric Mind</h3>
+                        <p class="tl-org"><i class="fas fa-chart-line"></i> Numeric Mind · Kathmandu, Nepal</p>
+                        <p>Worked with healthcare and clinical trial datasets to support spatial analysis, machine learning workflows, and data-driven decision making. During this period, I became increasingly interested in how geospatial thinking and predictive analytics could work together to solve real-world problems beyond traditional mapping.</p>
+                        <div class="tl-tags"><span>Python · SQL</span><span>Machine Learning</span><span>Healthcare Spatial Data</span><span>Clinical Trials</span><span>Data Pipelines</span></div>
+                    </div>
+                </div>
+
+                <div class="tl-item tl-right reveal">
+                    <div class="tl-dot tl-dot--accent"></div>
+                    <div class="tl-card">
+                        <span class="tl-period">Aug 2024 – Present</span>
+                        <h3>Graduate RA / TA · New Mexico State University</h3>
+                        <p class="tl-org"><i class="fas fa-satellite"></i> NMSU · Las Cruces, New Mexico</p>
+                        <p>At NMSU, my work expanded into remote sensing, climate analysis, and environmental modeling. I currently study vegetation phenology across Sky Island ecosystems using satellite imagery and geospatial modeling, while also teaching GIS and remote sensing labs. This stage deepened both my technical research skills and my broader understanding of geography as an interdisciplinary field.</p>
+                        <div class="tl-tags"><span>MODIS · GEE · R</span><span>Phenofit · BFAST</span><span>Urban Analytics</span><span>GPA 3.97</span></div>
+                    </div>
+                </div>
+
+                <div class="tl-item tl-left reveal">
+                    <div class="tl-dot tl-dot--now"></div>
+                    <div class="tl-card tl-card--now">
+                        <span class="tl-period">May – Sept 2025</span>
+                        <h3>GIS Analyst Intern · New Mexico State University</h3>
+                        <p class="tl-org"><i class="fas fa-building"></i> NMSU · Las Cruces, New Mexico</p>
+                        <p>Led the development of an ArcGIS Indoors implementation for research space management at NMSU, working on indoor mapping, geodatabase design, dashboards, and digital twin visualization. This experience showed me how spatial technologies can shape not only outdoor environments, but also the way institutions understand and manage the spaces inside buildings.</p>
+                        <div class="tl-tags"><span>ArcGIS Indoors</span><span>Digital Twin</span><span>Dashboards · Hub</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="research-section" id="research">
+        <div class="container">
+            <div class="section-label">Research</div>
+            <h2 class="section-heading">What I Work On</h2>
+            <p class="research-intro">My interests span environmental systems, cities, technology, and human experience, but they are all connected by one thing: spatial thinking. I’m drawn to questions where geography reveals patterns, relationships, and stories that might otherwise go unnoticed, from desert ecosystems and urban inequality to virtual worlds and indoor environments.</p>
+
+            <div class="research-grid">
+
+                <div class="research-card research-card--wide reveal">
+                    <div class="rcard-num">01</div>
+                    <div class="rcard-icon"><i class="fas fa-mountain"></i></div>
+                    <div class="rcard-body">
+                        <h3>Vegetation Phenology &amp; Climate Dynamics</h3>
+                        <p>My thesis research examines how climate, elevation, and disturbance shape vegetation phenology across the Sky Islands of the U.S. Southwest. Using long-term satellite imagery, climate datasets, and geospatial modeling, I study how seasonal vegetation patterns respond to environmental variability across desert mountain ecosystems.</p>
+                        <div class="rcard-tags">
+                            <span>MODIS · Phenofit · GEE · R</span>
+                            <span>PRISM Climate Correlation</span>
+                            <span>Bimodal Detection</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card reveal">
+                    <div class="rcard-num">02</div>
+                    <div class="rcard-icon"><i class="fas fa-city"></i></div>
+                    <div class="rcard-body">
+                        <h3>Urban Inequality &amp; Environmental Justice</h3>
+                        <p>I’m interested in how urban environments reflect inequality through heat exposure, green space access, healthcare accessibility, and infrastructure distribution. My work explores how geography and socio-economic structure interact to shape environmental vulnerability across cities and communities.</p>
+                        <div class="rcard-tags">
+                            <span>Moran's I · GWR · Hotspot Analysis</span>
+                            <span>Social Vulnerability Indices</span>
+                            <span>LST · NDVI · Healthcare Access</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card reveal">
+                    <div class="rcard-num">03</div>
+                    <div class="rcard-icon"><i class="fas fa-brain"></i></div>
+                    <div class="rcard-body">
+                        <h3>GeoAI &amp; Spatial Machine Learning</h3>
+                        <p>I’m interested in how AI, machine learning can improve the way we understand spatial and environmental systems. My work explores predictive modeling, pattern detection, and geospatial analytics for applications in ecology, climate research, public health, indoor navigation, and urban systems.</p>
+                        <div class="rcard-tags">
+                            <span>RF · SVM · Regression · Cross-validation</span>
+                            <span>Spatial Modeling</span>
+                            <span>Python · R · ArcGIS Spatial Statistics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="research-card reveal">
+                    <div class="rcard-num">04</div>
+                    <div class="rcard-icon"><i class="fas fa-gamepad"></i></div>
+                    <div class="rcard-body">
+                        <h3>Geography of Virtual Worlds</h3>
+                        <p>One of my favorite projects explored how video games borrow geographic ideas from the real world. By analyzing games like GTA, Red Dead Redemption, and Uncharted 4, I examined how themes such as urban inequality, environmental determinism, and place identity are translated into virtual landscapes and player experiences.</p>
+                        <div class="rcard-tags">
+                            <span>Cultural Geography</span>
+                            <span>Urban Inequality</span>
+                            <span>ArcGIS StoryMaps</span>
+                        </div>
+                        <a href="https://storymaps.arcgis.com/stories/6dd1a29dcf8c40daaad3899a4cad5821" target="_blank" class="rcard-link">
+                            View StoryMap <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="research-card reveal">
+                    <div class="rcard-num">05</div>
+                    <div class="rcard-icon"><i class="fas fa-building"></i></div>
+                    <div class="rcard-body">
+                        <h3>Smart Spaces &amp; Indoor GIS</h3>
+                        <p>I’m interested in how indoor spatial technologies can support smarter and more responsive institutions. My work with ArcGIS Indoors focuses on indoor mapping, space management, digital twins, and spatial data infrastructure for research and campus environments.</p>
+                        <div class="rcard-tags">
+                            <span>ArcGIS Indoors</span>
+                            <span>Indoor Navigation</span>
+                            <span>Digital Twin</span>
+                            <span>Spatial Data Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-label">Projects</div>
+            <h2 class="section-heading">Selected Work</h2>
+            <p class="projects-intro">A collection of projects exploring the relationships between environment, technology, cities, and human experience through GIS, remote sensing, spatial analysis, and storytelling.</p>
+            <div class="projects-grid">
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--pheno">
+                        <!-- Add your cover image: replace src with your actual file path -->
+                        <!-- Example: <img src="images/phenology-map.png" alt="Phenology map" class="project-cover"> -->
+                        <!-- If no image is added, the gradient background shows instead -->
+                         <img src="images/overall_lz.png" alt="Phenology map" class="project-cover">
+                        <div class="project-img-overlay"><span>Remote Sensing · Thesis</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Sky Islands Vegetation Phenology</h3>
+                        <p>A long-term remote sensing study examining how climate, elevation, and seasonal variability shape vegetation dynamics across Sky Island mountain ecosystems in the U.S. Southwest. Using MODIS imagery, climate datasets, and geospatial modeling, this project explores how desert mountain landscapes respond to environmental change across space and time.</p>
+                        <div class="project-meta">
+                            <span>MODIS · Phenofit · R · GEE · PRISM</span>
+                            <a href="https://github.com/Ashok30-vk/sky-island-phenology-thesis.git" target="_blank" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--health">
+                        <!-- <img src="images/heat-risk-map.png" alt="Heat risk map" class="project-cover"> -->
+                         <img src="images/SVI.jpg" alt="Phenology map" class="project-cover">
+                        <div class="project-img-overlay"><span>Public Health · Spatial Analysis</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Heat Risk &amp; Healthcare Inequity · New Mexico</h3>
+                        <p>Explored how extreme heat exposure, social vulnerability, and healthcare accessibility intersect across communities in New Mexico. This project used spatial statistics and hotspot analysis to identify areas where environmental risk and limited access to resources overlap most strongly.</p>
+                        <div class="project-meta">
+                            <span>Hotspot Analysis · GWR · Social Vulnerability</span>
+                            <a href="https://arcg.is/iqPH80" target="_blank" class="project-link">Explore More →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--urban">
+                        <!-- <img src="images/urban-heat.png" alt="Urban heat analysis" class="project-cover"> -->
+                         <img src="images/greenpark_elp.png" alt="Urban heat analysis" class="project-cover">
+                        <div class="project-img-overlay"><span>Urban Analytics</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Urban Heat &amp; Park Accessibility · El Paso, TX</h3>
+                        <p>Analyzed the relationship between urban heat, vegetation cover, and park accessibility across El Paso, Texas. By combining land surface temperature, NDVI, and spatial statistics, the project identified neighborhoods experiencing elevated heat exposure and limited environmental accessibility.</p>
+                        <div class="project-meta">
+                            <span>MODIS LST · Moran's I · GWR</span>
+                            <a href="https://github.com/Ashok30-vk/elpaso-urban-heat-analysis.git" target="_blank" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--gaming">
+                        <img src="images/uncharted_map.png" alt="Urban heat analysis" class="project-cover">
+                        <!-- <img src="images/gaming-storymap.png" alt="Geography in gaming" class="project-cover"> -->
+                        <div class="project-img-overlay"><span>Cultural Geography · StoryMap</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Geography in Motion: Gaming</h3>
+                        <p>An exploration of how video games borrow spatial ideas from the real world to shape narrative, atmosphere, and player experience. Through games like GTA, Red Dead Redemption, and Uncharted 4, the project examined themes of urban inequality, environmental determinism, and place identity in virtual landscapes.</p>
+                        <div class="project-meta">
+                            <span>ArcGIS StoryMaps · Cultural Geography</span>
+                            <a href="https://storymaps.arcgis.com/stories/6dd1a29dcf8c40daaad3899a4cad5821" target="_blank" class="project-link">StoryMap →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--indoor">
+                        <!-- <img src="images/arcgis-indoors.png" alt="ArcGIS Indoors dashboard" class="project-cover"> -->
+                        <img src="images/space_occupancy.png" alt="Urban heat analysis" class="project-cover">
+                        <div class="project-img-overlay"><span>GIS Development · Indoor</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>NMSU ArcGIS Indoors Implementation</h3>
+                        <p>Designed and developed an ArcGIS Indoors implementation for research space management at New Mexico State University. The project included indoor mapping, geodatabase architecture, occupancy dashboards, and digital twin visualization to support smarter space management and institutional decision making.</p>
+                        <div class="project-meta">
+                            <span>ArcGIS Indoors · Dashboards · Hub</span>
+                            <a href="https://arcg.is/TOe501" target="_blank" class="project-link">View →</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-img project-img--nepal">
+                        <img src="images/lulc_rupandehi.jpg" alt="Urban heat analysis" class="project-cover">
+                        <div class="project-img-overlay"><span>Published · Journal Article</span></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>LULC Change &amp; LST · Rupandehi, Nepal</h3>
+                        <p>A 20-year remote sensing analysis of land use change and land surface temperature dynamics in Rupandehi District, Nepal. Using Landsat imagery, NDVI, and NDBI, the study explored how urban expansion and landscape transformation influenced environmental conditions over time.</p>
+                        <div class="project-meta">
+                            <span>Landsat · NDVI · NDBI · OALib Journal</span>
+                            <a href="https://doi.org/10.4236/oalib.1114123" target="_blank" class="project-link">DOI →</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="publications-section" id="publications">
+        <div class="container">
+            <div class="section-label">Publications &amp; Presentations</div>
+            <h2 class="section-heading">Research Output</h2>
+
+            <div class="pub-list">
+                <div class="pub-item reveal">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--journal">Journal Article</span>
+                        <h4>Assessing the Relationship Between Land Use/Land Cover Change, NDVI, NDBI, and Land Surface Temperature: A 20-Year Analysis of Rupandehi District, Nepal</h4>
+                        <p class="pub-venue">Open Access Library Journal</p>
+                        <p class="pub-authors">Gahatraj, A., Bhusal, K.</p>
+                        <a href="https://doi.org/10.4236/oalib.1114123" target="_blank" class="pub-doi">DOI: 10.4236/oalib.1114123 →</a>
+                    </div>
+                </div>
+                <div class="pub-item pub-item--has-img reveal">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--poster">Conference Poster</span>
+                        <h4>Mapping and Managing Research Space...</h4>
+                        <p class="pub-venue">SWAAG Conference 2026 · <strong>3rd Place 🏆</strong></p>
+                        <p class="pub-authors">Gahatraj, A.</p>
+                    </div>
+                    <div class="pub-img">
+                        <img src="images/swwag_25.jpg" alt="SWAAG Conference 2025 poster presentation">
+                    </div>
+                </div>
+                <div class="pub-item pub-item--has-img reveal">
+                    <div class="pub-year">2025</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--poster">Conference Poster</span>
+                        <h4>Urban Growth and Land Surface Temperature in the Northern Rio Grande Corridor</h4>
+                        <p class="pub-venue">AAG Annual Meeting 2025</p>
+                        <p class="pub-authors">Gahatraj, A.</p>
+                    </div>
+                    <div class="pub-img">
+                        <img src="images/aag_25.jpg" alt="AAG Conference 2025 poster presentation">
+                    </div>
+                </div>
+                <div class="pub-item pub-item--has-img reveal">
+                    <div class="pub-year">2026</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--poster">Conference</span>
+                        <h4>Esri User Conference 2025 — Attendee</h4>
+                        <p class="pub-venue">Esri UC · San Diego, CA</p>
+                        <p class="pub-authors">Gahatraj, A.</p>
+                    </div>
+                    <div class="pub-img">
+                        <img src="images/esri_uc.jpg" alt="ESRI User Conference 2025 san Diego, CA">
+                    </div>
+                </div>
+
+                <div class="pub-item pub-item--has-img reveal">
+                    <div class="pub-year">2024</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--poster">Conference Poster</span>
+                        <h4>Poster Presentation</h4>
+                        <p class="pub-venue">SWAAG Conference 2024</p>
+                        <p class="pub-authors">Gahatraj, A.</p>
+                    </div>
+                    <div class="pub-img">
+                        <img src="images/swaag_24.jpg" alt="SWAAG Conference 2024 poster presentation">
+                    </div>
+                </div>
+                <div class="pub-item reveal">
+                    <div class="pub-year">2021</div>
+                    <div class="pub-content">
+                        <span class="pub-type pub-type--conf">Conference</span>
+                        <h4>Geomatics Engineering Association of Nepal Annual Conference</h4>
+                        <p class="pub-venue">GEAN · Nepal</p>
+                        <p class="pub-authors">Gahatraj, A.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="awards-row">
+                <div class="award-chip"><i class="fas fa-trophy"></i><span>3rd Place · SWAAG 2026</span></div>
+                <div class="award-chip"><i class="fas fa-graduation-cap"></i><span>Robert &amp; Elizabeth Czerniak Endowed Scholarship · 2025</span></div>
+                <div class="award-chip"><i class="fas fa-map-marked-alt"></i><span>Richard D. Wright Graduate Award for Excellence in Applied GIS · 2025</span></div>
+                <div class="award-chip"><i class="fas fa-star"></i><span>Gamma Theta Upsilon Honor Society</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV + CERTIFICATES -->
+    <section class="cv-section" id="cv">
+        <div class="container">
+            <div class="cv-top">
+                <div class="cv-text">
+                    <div class="section-label">CV &amp; Credentials</div>
+                    <h2 class="section-heading">Background &amp;<br><em>Experience</em></h2>
+                    <p>Experience across GIS, remote sensing, spatial analytics, and data science, from humanitarian mapping and healthcare analytics to environmental research and indoor spatial systems.</p>
+                    <a href="Ashok_Gahatraj_CV.pdf" download target="_blank" rel="noopener noreferrer" class="btn-primary">
+                        <i class="fas fa-download"></i>&nbsp; Download Full CV (PDF)
+                    </a>
+                </div>
+                <div class="cv-stats">
+                    <div class="cv-stat"><span class="stat-n">4+</span><span class="stat-l">Years GIS &amp; Spatial Analytics</span></div>
+                    <div class="cv-stat"><span class="stat-n">4+</span><span class="stat-l">Years Data Analysis &amp; ML</span></div>
+                    <div class="cv-stat"><span class="stat-n">3+</span><span class="stat-l">Years Remote Sensing</span></div>
+                </div>
+            </div>
+            <div class="certs-block">
+                <h3 class="certs-heading">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--google"><i class="fab fa-google"></i></div>
+                        <div class="cert-body"><h4>Google Data Analytics Specialization</h4><span>Coursera / Google</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--esri"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="cert-body"><h4>Introduction to GIS Programming</h4><span>UT Knoxville · 2025</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--esri"><i class="fas fa-building"></i></div>
+                        <div class="cert-body"><h4>ArcGIS Indoors: Indoor Viewer &amp; Mobile Apps</h4><span>Esri · 2025</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--ai"><i class="fas fa-brain"></i></div>
+                        <div class="cert-body"><h4>GeoAI — Spatial Artificial Intelligence</h4><span>Esri</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--ai"><i class="fas fa-robot"></i></div>
+                        <div class="cert-body"><h4>Machine Learning for Spatial Analysis</h4><span>Esri</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--esri"><i class="fas fa-chart-bar"></i></div>
+                        <div class="cert-body"><h4>Regression Analysis in ArcGIS Pro</h4><span>Esri · 2025</span></div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon cert-icon--esri"><i class="fas fa-layer-group"></i></div>
+                        <div class="cert-body"><h4>Spatial Modeling &amp; Analysis</h4><span>Esri</span></div>
+                    </div>
+                    <!-- <div class="cert-card cert-card--add reveal">
+                        <div class="cert-icon cert-icon--plus"><i class="fas fa-plus"></i></div>
+                        <div class="cert-body"><h4>And more…</h4><span>See full CV for complete list</span></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTOGRAPHY -->
+    <section class="photo-section" id="photography">
+        <div class="container">
+            <div class="photo-section-header">
+                <div>
+                    <div class="section-label">Photography</div>
+                    <!-- <h2 class="section-heading">Street Stories</h2> -->
+                    <h2 class="section-heading">Street <em>Stories</em></h2>
+                </div>
+                <blockquote class="photo-statement">
+                    "Sometimes a place reveals itself best <em>through the people</em> moving quietly inside it."
+                </blockquote>
+            </div>
+            <div class="photo-editorial">
+                <div class="photo-editorial-text">
+                    <p>I’m drawn to ordinary places and the small details inside them: crowded markets, street corners, passing conversations, changing light, people lost in thought. Time moves constantly, and most moments disappear before we even realize they mattered. Photography, for me, is a way of holding onto those fragments for a little longer, the feeling of a place, a memory, a fleeting expression, a moment that would otherwise quietly pass by.</p>
+                    <p>These photographs aren’t meant to document everything. They’re simply my way of slowing down, paying attention, and being fully present somewhere.</p>
+                    <p class="photo-note-inline">Street · Travel · Everyday Life · Quiet Moments</p>
+                    <!-- Replace YOUR_INSTAGRAM_USERNAME with your actual handle -->
+                    <a href="https://www.instagram.com/gahatrj_ashok15/" target="_blank" class="photo-instagram">
+                        <i class="fab fa-instagram"></i> gahatrj_ashok15
+                    </a>
+                </div>
+                <div class="photo-slider-wrap">
+                    <div class="photo-slider" id="photoSlider">
+                        <div class="photo-track" id="photoTrack">
+
+                            <!-- SLIDE 1 — Add your photo inside <img> or keep placeholder -->
+                            <div class="photo-slide">
+                                <div class="slide-placeholder"><span><img src="images/chinatown.jpg" alt="San Francisco Chinatown"></span></div>
+                                <div class="slide-caption">San Francisco Chinatown</div>
+                            </div>
+                            <!-- SLIDE 1.1 -->
+                            <div class="photo-slide">
+                                
+                                <div class="slide-placeholder"><span><img src="images/1pier39.jpg" alt="San Francisco Pier 39"></span></div>
+                                <div class="slide-caption">San Francisco Pier 39</div>
+                            </div>
+
+                            <!-- SLIDE 2 -->
+                            <div class="photo-slide">
+                                
+                                <div class="slide-placeholder"><span><img src="images/2pier39.jpg" alt="San Francisco Pier 39"></span></div>
+                                <div class="slide-caption">San Francisco Pier 39</div>
+                            </div>
+
+                            <!-- SLIDE 3 -->
+                            <div class="photo-slide">
+                                
+                                <div class="slide-placeholder"><span><img src="images/Las_Cruces.jpg" alt="Las Cruces"></span></div>
+                                <div class="slide-caption">Las Cruces</div>
+                            </div>
+
+                            <!-- SLIDE 4 -->
+                            <div class="photo-slide">
+                                <div class="slide-placeholder"><span><img src="images/sf_beach.jpg" alt="San Francisco Beach"></span></div>
+                                <div class="slide-caption">San Francisco Beach</div>
+                            </div>
+
+                            <!-- SLIDE 5 -->
+                            <div class="photo-slide">
+                                
+                                <div class="slide-placeholder"><span><img src="images/golden_gate.jpg" alt="Golden Gate Bridge"></span></div>
+                                <div class="slide-caption">Golden Gate Bridge</div>
+                            </div>
+                            <!-- SLIDE 6 -->
+                            <div class="photo-slide">
+                                
+                                <div class="slide-placeholder"><span><img src="images/sf_beach2.jpg" alt="San Francisco Beach"></span></div>
+                                <div class="slide-caption">San Francisco Beach</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/ferris.jpg" alt="Ferris Wheel"></span></div>
+                                <div class="slide-caption">Ferris Wheel in San Francisco</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/manag_valley.jpg" alt="Manang Valley"></span></div>
+                                <div class="slide-caption">On the way to Thorang La Pass</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/marsyangdi_origin.jpg" alt="White Himalayas"></span></div>
+                                <div class="slide-caption">Scene while crossing the 22 ghumti</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/tilicho_base1.jpg" alt="Tilicho Base Camp"></span></div>
+                                <div class="slide-caption">On the way to Tilicho Base Camp</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/tilicho_base2.jpg" alt="Tilicho Base Camp"></span></div>
+                                <div class="slide-caption">On the way to Tilicho Base Camp</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/22_ghumti.jpg" alt="22 Ghumti"></span></div>
+                                <div class="slide-caption">Alien Landscape seen from the 22 ghumti</div>
+                            </div>
+                            
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/landslide_way.jpg" alt="Way to Tilicho Base Camp"></span></div>
+                                <div class="slide-caption">Landslide on the way to Tilicho Base Camp</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/ghyaru_manag.jpg" alt="Ghyaru, Manang"></span></div>
+                                <div class="slide-caption">Ghyaru, Manang</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/tilicho_lake2.jpg" alt="Tilicho Lake"></span></div>
+                                <div class="slide-caption">Tilicho Lake</div>
+                            </div>
+                            <div class="photo-slide">                               
+                                <div class="slide-placeholder"><span><img src="images/manag_valley_horse.jpg" alt="Horses in Manang Valley"></span></div>
+                                <div class="slide-caption">Baby and Mama Horses in Manang Valley</div>
+                            </div>
+
+                            <!-- Add more slides by copying a block above -->
+
+                        </div><!-- /.photo-track -->
+
+                        <button class="slider-btn slider-prev" id="sliderPrev" aria-label="Previous photo">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="slider-btn slider-next" id="sliderNext" aria-label="Next photo">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div><!-- /.photo-slider -->
+
+                    <div class="slider-dots" id="sliderDots"></div>
+                </div><!-- /.photo-slider-wrap -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MARGINALIA -->
+    <section class="marginalia-section" id="marginalia">
+        <div class="container">
+            <div class="marg-header">
+                <div>
+                    <div class="section-label">Marginalia</div>
+                    <h2 class="section-heading">Notes in the<br><em>Margins</em></h2>
+                </div>
+                <p class="marg-intro-text">Poetry, cinematic observations, space thoughts, and the kind of things <em> you write at 11pm and don't delete </em> in the morning. This is everything that doesn't fit a résumé but makes the work make sense.</p>
+            </div>
+
+            <div class="marg-filters" id="margFilters">
+                <button class="mfilt mfilt--film"    data-filter="film">The Quiet Archive</button>
+                <button class="mfilt mfilt--space"   data-filter="space">Space</button>
+                <button class="mfilt mfilt--poem"    data-filter="poem">Poem</button>     
+                <button class="mfilt mfilt--thought" data-filter="thought">Thought</button>
+                <!-- <button class="mfilt mfilt--essay"   data-filter="essay">Essay</button> -->
+            </div>
+
+            <div class="marg-list">
+                <!-- ── ENTRY 1: The Quiet Archive placeholder ────────────── -->
+                <article class="marg-entry reveal" data-type="film">
+                    <div class="marg-entry-head">
+                        <div class="marg-meta">
+                            <span class="mtype mtype--film">The Quiet Archive</span>
+                            <span class="mdate">6/10/2025</span>
+                        </div>
+                        <div class="marg-title-row">
+                            <h3 class="marg-title">On Love and the Cosmos</h3>
+                            <button class="marg-toggle" aria-label="Expand entry">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="marg-preview"><strong> "Stars shimmer above, and meteors streak across the sky. The world is still. Zeena leans on Kai’s shoulder, eyes on the sky."</strong></p>
+                    </div>
+                    <div class="marg-full">
+                        <p>[Setting: A quiet hilltop at night. Stars shimmer above, and meteors streak across the sky. The world is still. Zeena leans on Kai’s shoulder, eyes on the sky.]
+                        <br>
+                        Zeena: (softly)
+                        “Kai… quick. Make a wish.”
+                        <br>
+                        Kai: (without looking away from the sky)
+                        “I already did.”
+                        <br>
+                        Zeena:
+                        “What did you wish for?”
+                        <br>
+                        Kai: (turns to her, voice barely above a whisper)
+                        “For silence… the kind where nothing speaks but your heartbeat. A place without noise, without time, just you, and that sound. That’s all I ever want to hear.”
+                        <br>
+                        Zeena: (blushes, but smiles)
+                        “You and your poetic physics.”
+                        <br>
+                        Kai: (chuckles, then serious)
+                        “No… this isn’t physics. This is something else. Something beyond rules and particles and equations.”
+                        <br>
+                        Zeena: (playfully nudges him)
+                        “Says the guy who explains love with entropy.”
+                        <br>
+                        Kai: (grinning, then gently takes her hand)
+                        “Even entropy can’t explain you.”
+                        <br>
+                        (He pauses, watching a particularly bright meteor burn through the sky.)
+                        <br>
+                        Kai:
+                        “You know… I used to believe the universe was indifferent. Cold. Chaotic. Just a cosmic accident.”
+                        <br>
+                        Zeena:
+                        “And now?”
+                        <br>
+                        Kai: (looks at her, eyes soft but intense)
+                        “Now I think the universe wrote itself just to bring us to this moment. Every star, every atom, every impossible coincidence, just so I could sit here, under this sky, holding your hand.”
+                        <br>
+                        Zeena: (quiet for a second, then whispers)
+                        “Kai…”
+                        <br>
+                        Kai:
+                        “You and I… we’re not side characters. We’re not background stories. We are the story. The universe turns because we exist. And when we’re gone… maybe it’ll just stop. Like a book that ends when the last word is spoken.”
+                        <br>
+                        Zeena:
+                        “That’s… a little overwhelming.”
+                        <br>
+                        Kai: (nods)
+                        “It is. But maybe that’s what love is. Something big enough to make the stars feel small.”
+                        <br>
+                        Zeena: (leans her head on his shoulder again)
+                        “So… we’re the beginning and the end?”
+                        <br>
+                        Kai:
+                        “The alpha and the omega. The first breath and the last echo.”
+                        <br>
+                        (They sit in silence for a while. The only sound is the distant breeze, and the steady rhythm of her heartbeat against his arm.)
+                        <br>
+                        Kai: (softly, eyes closed)
+                        “Do you hear that?”
+                        <br>
+                        Zeena:
+                        “What?”
+                        <br>
+                        Kai:
+                        “Your heartbeat. The sound my wish made real. My only wish,'You'.”</p>
+                    </div>
+                </article>
+
+                <article class="marg-entry reveal" data-type="film">
+                    <div class="marg-entry-head">
+                        <div class="marg-meta">
+                            <span class="mtype mtype--film">The Quiet Archive</span>
+                            <span class="mdate">6/12/2025</span>
+                        </div>
+                        <div class="marg-title-row">
+                            <h3 class="marg-title">Scenes That Never Happened</h3>
+                            <button class="marg-toggle" aria-label="Expand entry">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="marg-preview"><strong> "Zeena lies back on the grass, arms behind her head, while Kai sits beside her, his gaze drifting between her and the sky."</strong></p>
+                    </div>
+                    <div class="marg-full">
+                        <p>[Setting: The meteor shower continues above. Zeena lies back on the grass, arms behind her head, while Kai sits beside her, his gaze drifting between her and the sky.]
+                        <br>
+                        Zeena: (smiling up at the sky)
+                        “Kai… what do you think were the odds of us meeting like this? You and me. A law student who barely scraped through her science classes… and you, with your brain wired to stardust and math.”
+                        <br>
+                        Kai: (laughs softly, lying down next to her)
+                        “Honestly? The odds are so low, they might as well be zero. But here we are.”
+                        <br>
+                        Zeena: (turning to him)
+                        “Tell me. Not the poetic version. The science one. I want to hear the impossible math of us.”
+                        <br>
+                        Kai: (quiet for a moment, then begins, almost in a trance)
+                        “Alright… Let’s start at the beginning.”
+                        <br>
+                        (He points to the stars.)
+                        <br>
+                        Kai:
+                        “First, there had to be a Big Bang—fifteen billion years ago. And the balance of that explosion had to be just right. If it had expanded even a fraction faster, nothing would have formed. A little slower, and the universe would’ve collapsed back in on itself.”
+                        <br>
+                        Zeena: (whispers)
+                        “Strike one.”
+                        <br>
+                        Kai: (nods)
+                        “Then galaxies formed… somehow. Gravity pulled dust into stars, stars into systems. And out of all those stars, our Sun was born, mid-sized, stable, incredibly rare. And orbiting it, our Earth… not too close to burn, not too far to freeze. Just there, in the Goldilocks zone.”
+                        <br>
+                        Zeena:
+                        “Strike two.”
+                        <br>
+                        Kai: (smiling)
+                        “Then came Jupiter and Saturn, perfectly placed giant guardians. Without them, comets and asteroids would’ve wiped Earth clean a dozen times. They were like cosmic shields.”
+                        <br>
+                        Zeena:
+                        “So the universe gave us bouncers.”
+                        <br>
+                        Kai: (grins)
+                        “Exactly. And then Earth got a magnetic field, shielding life from solar radiation. A tilted axis to give us seasons. A moon to stabilize our rotation. And four fundamental forces—gravity, electromagnetism, strong, and weak—balanced just so. Any tiny variation, and atoms wouldn’t bind… stars wouldn’t shine… chemistry wouldn’t exist.”
+                        <br>
+                        Zeena: (softly)
+                        “Strike three…”
+                        <br>
+                        Kai: (his voice growing gentler)
+                        “Then life. Not just any life, but intelligent life. Do you know how unlikely it is for consciousness to emerge from carbon chains? Then came us—homo sapiens. We could’ve stayed on the savannah, but something pulled us forward. Fire, language, migration… survival.”
+                        <br>
+                        Zeena:
+                        “The odds keep shrinking.”
+                        <br>
+                        Kai:
+                        “They do. Add in a few ice ages, a bunch of extinction events, and then the lottery of our ancestors. Each one had to survive famine, war, disease… all just so your mother could meet your father. And mine could meet mine.”
+                        <br>
+                        Zeena: (turning toward him, eyes locked on his)
+                        “And yet… here we are.”
+                        <br>
+                        Kai: (barely a whisper)
+                        “Here we are. Two dots in an infinite night sky. But somehow, those dots connected.”
+                        <br>
+                        Zeena:
+                        “I never understood physics… But I understand this. That even if we’re a one-in-a-billion chance… once is all I need.”
+                        <br>
+                        Kai:
+                        “You’re my statistical anomaly. My miracle hidden in chaos.”
+                        <br>
+                        Zeena: (smiling with a tear escaping)
+                        “Then don’t ever run the numbers again.”
+                        <br>
+                        Kai: (leans in, forehead resting against hers)
+                        “I won’t. Not when I’m holding proof the universe is capable of love.”</p>
+                    </div>
+                </article>
+                <!-- ── ENTRY 2: Space thought placeholder ────────── -->
+                <article class="marg-entry reveal" data-type="space">
+                    <div class="marg-entry-head">
+                        <div class="marg-meta">
+                            <span class="mtype mtype--space">Space</span>
+                            <span class="mdate">2/27/2025</span>
+                        </div>
+                        <div class="marg-title-row">
+                            <h3 class="marg-title">Space, Entropy, and Consciousness</h3>
+                            <button class="marg-toggle" aria-label="Expand entry">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="marg-preview"><strong>"We are temporary beings trying to hold temporary moments inside a temporary universe."</strong></p>
+                    </div>
+                    <div class="marg-full">
+                        <p>Whenever I look at space and consider my role in this massive universe, my mind always splits into two distinct perspectives. The first places me at the absolute center of the universe. The second places me far outside of it, observing as an insignificant speck. Both are true, and both tell me exactly what my life is worth.
+                        <br>
+                        <br>
+                        <em>The First Perspective:</em> A Universe Built for Me 
+                        When I wonder why the universe exists at all, the first perspective tells me that it exists simply for me. The Big Bang happened so I could eventually feel the vastness of space. The solar system formed because I needed warmth, and Earth became habitable so I could breathe the air. Entropy increases, and chaos grows, all to create the exact, perfect conditions required for me to live.
+                        <br>
+                        Every event in the universe and throughout Earth’s history happened just so I could exist. It is incredible to think about how chemistry and biology worked so flawlessly together: energy converting into a single-celled organism, evolving into multicellular life, surviving the eras of dinosaurs and ice ages, moving through ape-like creatures, Homo erectus, and Neanderthals. They survived, learned, gained consciousness, and finally, here I am.
+                        <br>
+                        I don't say "me" to imply I am the only one; anyone can put themselves in this position and the logic holds. After billions of years, I am conscious, fueled by the same energy created in the Big Bang. Before I existed, the universe was there, but it made no sense—it was simply getting ready for me. All of human history, the civilizations, wars, kings, and soldiers, led to my story. While my direct physical contribution to the entropy of the universe is minimal, all the entropy that ever was, and is, exists for my story to complete. The universe will continue forever after I am gone, but it will make no sense to me, because after my death, my universe dies too.
+                        <br>
+                        Since everything—countless cosmic chances, dark matter, dark energy, neutron stars, black holes, dimensions, time, biology, and Earth—happened to make me alive, why should I ever feel powerless, tiny, or insecure? Why should I waste the most valuable gift the universe could give? My existence is the greatest creation the universe could achieve. Everyone and every creature on this Earth is equally priceless, carrying their own story and meaning. In my story, my contribution is absolute, until I lose my consciousness.
+                        <br>
+                        <br>
+                        <em>The Second Perspective:</em> The Indifferent Cosmos
+                        Then comes the second perspective. The universe is so ancient and vast that a normal mind cannot truly perceive it.
+                        <br>
+                        We hear the universe is 13.8 billion years old. I try to comprehend that scale by comparing it to billionaires in our world. A billion dollars is a sum a normal human could never earn in an entire lifetime, yet some achieve it through fortune, hard work, and timing. But comparing the age of the universe to money isn't fair, because an average human life is only about 75 years. It has only been 12,000 years since humans started farming and living in established societies. It’s been just over 250 years since the Industrial Revolution, 2,000 years since Jesus died, 2,500 since Buddha was born, 78,000 since human migration began, and 300,000 since Homo sapiens first appeared.
+                        <br>
+                        The human mind cannot easily think beyond hundreds or thousands of years. Comprehending the age of the universe is impossible.
+                        <br>
+                        There are about 400 billion stars in the Milky Way, roughly 3 trillion planets, and 2 trillion galaxies in the observable universe. Theories like string theory even suggest a multiverse. Against these numbers, I am nothing. To the universe, the stars, the galaxies, and the march of entropy, my existence holds no weight. If I cease to exist tomorrow, the universe changes nothing. Time will move forward, space will continue, and the universe will expand so fast that even light will never reach its edge.
+                        <br>
+                        Even within our own solar system, Earth is just a tiny blue dot. If you combined all the planets and moons, they would be nothing compared to the Sun; thousands of Earths could fit inside it. The thermodynamics, nuclear fusion, and gravitational wars inside the Sun were happening before me, and will continue after me. There are 8 billion people and hundreds of trillions of other creatures on this planet, all with some form of consciousness. If I die tomorrow, leaving aside my family and a few close people, nothing matters to the rest. Every second, three people are born and one person dies. The universe does not blink. Even if Earth vanished tomorrow, the Sun wouldn't notice for eight minutes.
+                        <br>
+                        The Synthesis: Finding Peace
+                        I value both of these thoughts equally. Together, they show me my role and my true value.
+                        <br>
+                        Because I am tiny and temporary, my consciousness, my empathy, my kindness, and my love are incredibly real. In this life, I have no one to prove anything to but myself. The universe will accept me in every way if I am just able to find peace with myself. There is no cosmic judge, and no mandated deeds required to enter a heaven or avoid a hell.
+                        <br>
+                        In a grand, moral sense, there is no universal right or wrong. But in my life, "right" is simply the act that does not contribute pain or sorrow to myself and other people.
+                        <br>
+                        Throughout history, people have tried to leave some kind of permanence in this world—sculptures, temples, paintings, writings, and voicenotes. But everything in the universe has a limit and an age. Some leave their presence for a longer time than others, but in the grand scheme of the cosmos, everything will fade away. In your own personal universe, permanence fades the exact moment you lose your consciousness. And understanding that is the ultimate freedom.</p>
+                    </div>
+                </article>
+                <!-- ── ENTRY 3: Poem placeholder ───────────────── -->
+                <!-- To add a poem: replace the preview and full-content text below.
+                     The full-content block is hidden until the card is clicked. -->
+                <article class="marg-entry reveal" data-type="poem">
+                    <div class="marg-entry-head">
+                        <div class="marg-meta">
+                            <span class="mtype mtype--poem">Poem</span>
+                            <span class="mdate">4/15/2026</span>
+                        </div>
+                        <div class="marg-title-row">
+                            <h3 class="marg-title">My Dear One</h3>
+                            <button class="marg-toggle" aria-label="Expand entry">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="marg-preview">"<strong>You are my Zeena ,<br>
+                            my quiet blessing wrapped in storms,<br>
+                            my moon standing fearless<br>
+                            among a sky full of ordinary stars.</strong>"<br>
+                        </p>
+                    </div>
+                    <div class="marg-full">
+                        <div class="marg-poem-text">
+                            <p>
+                            I still remember the first words I sent you —<br>
+                            “What are the odds of meeting you<br>
+                            among millions of girls?”<br>
+
+                            Almost zero…<br>
+                            And even smaller,<br>
+                            calling you mine.<br>
+                            Yet here we are.<br>
+                            Not by accident.<br>
+                            Not by chance.<br>
+                            <br>
+                            The universe does not misplace souls like yours.<br>
+                            You are not just any girl.<br>
+                            You are my Zeena ,<br>
+                            my quiet blessing wrapped in storms,<br>
+                            my moon standing fearless<br>
+                            among a sky full of ordinary stars.<br>
+                            <br>
+                            Even when you turn silent,<br>
+                            I don’t see distance.<br>
+                            I see autumn.<br>
+                            Leaves falling not as an ending,<br>
+                            but as preparation<br>
+                            for the bravest spring.<br>
+                            <br>
+                            Your rough winds,<br>
+                            your guarded heart,<br>
+                            your strong and stubborn waves —<br>
+                            <br>
+                            I don’t fear them.<br>
+                            I see the softness you hide<br>
+                            like sunlight waiting behind clouds.<br>
+                            <br>
+                            If you are the Sunkoshi river,<br>
+                            restless and wild,<br>
+                            rushing toward unknown places,<br>
+                            <br>
+                            then let me be the boat<br>
+                            that does not chase,<br>
+                            does not command the current,<br>
+                            but waits patiently<br>
+                            on your water.<br>
+                            <br>
+                            Not to control you.<br>
+                            Not to anchor you down.<br>
+                            <br>
+                            Only to float beside you<br>
+                            until you choose<br>
+                            to slow down.<br>
+                            <br>
+                            And if you feel like leaving,<br>
+                            like drifting far away,<br>
+                            know this —<br>
+                            <br>
+                            my hands are not chains.<br>
+                            They are open skies.<br>
+                            <br>
+                            Take your time.<br>
+                            Change your seasons.<br>
+                            Heal your storms.<br>
+                            I am not here to rush your spring.<br>
+                            I am here to witness it.<br>
+                            Because the moon never stops being the moon,<br>
+                            even when clouds forget her light.<br>
+                            <br>
+                            And you —<br>
+                            no matter how distant you feel —<br>
+                            are still my blessed one,<br>
+                            my quiet miracle,<br>
+                            my almost impossible chance<br>
+                            that the universe once gave me.<br>
+                            <br>
+                            And I will cherish it,<br>
+                            whether you bloom beside me<br>
+                            or find your own horizon.<br>
+                            
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ── ENTRY 4: Thought placeholder ──────────────── -->
+                <article class="marg-entry reveal" data-type="thought">
+                    <div class="marg-entry-head">
+                        <div class="marg-meta">
+                            <span class="mtype mtype--thought">Thought</span>
+                            <span class="mdate">10/24/2024</span>
+                        </div>
+                        <div class="marg-title-row">
+                            <h3 class="marg-title">Spatial Injustice: The Geography of the Surviving Class</h3>
+                            <button class="marg-toggle" aria-label="Expand entry">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="marg-preview"><strong>"Inequality is not a glitch in the urban system; in many ways, it is the fuel. By designing cities that prioritize capital over people, we create a <em>spatial hierarchy.</em></strong>"</p>
+                    </div>
+                    <div class="marg-full">
+                        <p>Geography often employs the concept of the Dual City. This is the idea that a single urban area is actually two separate worlds occupying the same space. One is a city of high-end infrastructure, glass skyscrapers, and gated communities; the other is a city of informal settlements and "slums."
+                        <br>
+                        In cities like Mumbai, this design is functional. The affluent "formal" city relies on a massive "informal" labor force—drivers, cleaners, and street vendors—to function. However, the city is designed to house these workers in peripheral or marginalized spaces with minimal infrastructure. By keeping certain populations in a state of "surviving," the urban economy ensures a steady supply of low-cost labor.
+                        <br>
+                        Modern city design often utilizes Infrastructure Exclusion. This occurs when the movement of resources—clean water, stable electricity, and paved roads—is intentionally routed toward "high-value" zones.
+                        <br>
+                            Geographic Concept: Accumulation by Dispossession.
+                            As cities expand, prime land is reclaimed for luxury developments, pushing the poor into "hazard zones" such as floodplains, steep      slopes in Kathmandu, or the edges of toxic landfills in Delhi. The design forces the poor to live in precarious environments, making poverty   a geographic trap rather than just a financial status.
+                        <br>
+                        Urban design uses physical markers to maintain inequality. This is often referred to as Hostile Architecture or Defensive Urbanism.
+                        <br>
+                        In developing nations, this looks like:
+                        <br>
+                            Flyovers and Expressways: These are designed to allow the middle and upper classes to bypass "poor" neighborhoods entirely, literally soaring over the poverty beneath them. This creates a psychological and physical disconnect.
+                        <br>
+                            Gated Communities: These represent the "privatization of space," where public land is turned into exclusive enclaves, further limiting the access of the lower class to green spaces and safe roads.
+                        <br>
+                        In geography, Distance Decay suggests that the interaction between two locales declines as the distance between them increases. Modern cities are often designed with "zoning" that places low-income housing far from economic hubs.
+                        <br>
+                        For a laborer in New Delhi or a migrant worker in Kathmandu, the "cost of distance" is high. Without affordable public transit, they spend a massive percentage of their income and time just reaching the places where work exists. The city is designed to keep them on the move, but never quite "at home" in the center of prosperity.
+                        <br>
+                        Inequality is not a glitch in the urban system; in many ways, it is the fuel. By designing cities that prioritize capital over people, we create a spatial hierarchy. The "surviving class" exists because our urban maps are drawn to prioritize the flow of wealth for some, while building walls—both concrete and economic—for others. To change the society, we must first be willing to redraw the map.</p>
+                    </div>
+                </article>
+
+
+            </div><!-- /.marg-list -->
+            <p class="marg-empty" id="margEmpty">Nothing here yet — check back soon.</p>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-label">Contact</div>
+            <h2 class="section-heading">Let's Connect</h2>
+            <p class="contact-intro">Open to research collaborations, GIS / data science roles, academic discussions, and speaking engagements.</p>
+            <div class="contact-grid">
+                <div class="contact-block">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:gahatrajashok125@gmail.com">gahatrajashok125@gmail.com</a><br>
+                        <a href="mailto:ashokgr@nmsu.edu" class="contact-email-alt">ashokgr@nmsu.edu</a>
+                    </div>
+                </div>
+                <div class="contact-block">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>(575) 463-1773</p>
+                    </div>
+                </div>
+                <div class="contact-block">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Las Cruces, NM 88001<br><span class="contact-sub">Open to relocation</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-row">
+                <a href="https://github.com/Ashok30-vk" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/ashok-gahatraj-6179431a0" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=XZEshK8sk58C&hl=en" target="_blank" class="social-btn"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                <!-- <a href="https://www.researchgate.net/profile/Ashok-Gahatraj-2?ev=hdr_xprf" target="_blank" class="social-btn"><i class="fab fa-researchgate"></i> ResearchGate</a> -->
+                <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" target="_blank" class="social-btn social-btn--insta"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+
+                    <div class="footer-name">Ashok Gahatraj</div>
+
+                    <div class="footer-sub">
+                        © Copyright <span id="year"></span> · All rights reserved.
+                    </div>
+
+                    <div class="footer-copy">
+                        A digital atlas of places, patterns, and passing moments.
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
